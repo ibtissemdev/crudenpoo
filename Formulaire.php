@@ -4,14 +4,9 @@ if (isset($_GET['id'])) {
   $select_par_id= new Contact;
   $resultat = $select_par_id->find($_GET['id']);
 
-
-
 }
 
-
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="fr,en">

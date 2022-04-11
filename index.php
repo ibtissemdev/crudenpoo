@@ -20,8 +20,6 @@ Portable: <?=$resultat[$i]['Telportable']?><br>
 $envoyer=@$_POST['envoyer'];
 unset($_POST['envoyer']);
 
-
-
 if (!isset($envoyer) && isset($_GET['id'])){
 $suprimer=$contact->delete($_GET['id']); 
 header('Location:index.php');
